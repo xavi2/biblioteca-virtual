@@ -11,3 +11,5 @@ los archivos en el), un snapshot, lo cual es util cuando uno quiere volver
 hacia atras en algun momento del desarrollo.
 Bueno equipo, espero sus commits.
 D.G.
+
+Bueno, este es mi commit desde github para Windows :)
