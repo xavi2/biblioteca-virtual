@@ -2,19 +2,25 @@
 <head>
 	
 	<title>Biblioteca Virtual : Iniciar Sesion</title>
+	<link rel = "stylesheet" type="text/css" href = "styles/login.css">
 
 </head>
 
 <body>
 	
-	<form action="welcome.php" method: "POST" id = "login">
-		
-		<span>Nombre de usuario o e-mail: </span>
-		<input type = "text" name: "username"> <br>
-		<span>Contrasen&#771;a:</span>
-		<input type = "password" name = "password"> <br>
-		<input type = "submit">
+	<div id = 'login'>
+		<form action="welcome.php" method= "POST">
+			<div>
+			<span>Nombre de usuario: </span>
+			<input type = "text" name = "username"> <br>
+			</div>
+			<div>
+			<span>Contrasen&#771;a:</span>
+			<input type = "text" name = "password"> <br>
+			</div>
 
-	</form>
+			<input type = "submit" class = "centered">
 
+		</form>
+	</div>
 </body>
