@@ -47,7 +47,7 @@ CREATE TABLE `libro` (
   `titulo` varchar(30) NOT NULL,
   `autor` varchar(30) NOT NULL,
   `genero` varchar(30) DEFAULT NULL,
-  `version` double(10,0) DEFAULT NULL,
+  `version` int(10) DEFAULT NULL,
   `anio_Edicion` date NOT NULL,
   PRIMARY KEY (`id_Libro`),
   KEY `re` (`ci_adm`),
@@ -112,7 +112,7 @@ CREATE TABLE `usuario` (
   `apellido_Mat` varchar(30) DEFAULT NULL,
   `fecha_Registro` date NOT NULL,
   `nro_Pago` int(11) NOT NULL,
-  ` estado` varchar(30) NOT NULL,
+  `estado` varchar(30) NOT NULL,
   `e-mail` varchar(50) NOT NULL,
   PRIMARY KEY (`ci`),
   KEY `registra` (`nro_Pago`)

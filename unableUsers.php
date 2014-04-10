@@ -24,12 +24,29 @@
 		";
 
 		while ($row = mysqli_fetch_array($result)){
-			echo "<tr>";
 
-			echo "<td>". $row['nombre']." ".$row['apellido_Pat']." ".$row['apellido_Mat'];
+			if ($row['estado'] != 'habilitado'){
+				echo "<tr>";
 
-			echo "</tr>";
+				echo "<td>". $row['nombre']." ".$row['apellido_Pat']." ".$row['apellido_Mat']."</td>";
+				echo "<td>". $row['estado']."</td>";
+				echo "<td>";
+
+				echo '<form action = "deleteUser.php" method = "POST">
+			
+						<input type="hidden" name="idUser" value='.$row['ci'].'>
+						<input type="submit" value="Eliminar">
+
+					</form>';
+
+				echo "</td>";
+				echo "</tr>";
+			}
 		}
+
+
 	?>
+
+
 </body>
 </html>
