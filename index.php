@@ -12,10 +12,11 @@
 <head>
 	
 	<title>Biblioteca Virtual</title>
-	<style type="text/css" src = "styles/index.css"></style>
+	<link rel = "stylesheet" type="text/css" href = "styles/index.css">
 </head>
 <body>
-	
-	<button> <a href="login.php">Iniciar Sesion </a></button>
-
+	<div>
+		<h1>Biblioteca Virtual <span>Tu Vieja</span></h1>
+		<button> <a href="login.php">Iniciar Sesion </a></button>
+	</div>
 </body>
