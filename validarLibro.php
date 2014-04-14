@@ -7,13 +7,8 @@
  */
 
     //Conectamos a la Base de Datos#####################################################
-    
-    $conexion=mysql_connect("localhost","root","root");
-    if(!$conexion)
-       echo "no ha podido conectar".mysql_error();
-    mysql_select_db("biblioteca-virtual",$conexion);
-    
-    //Decalrar REglas ---------------------------------------
+    include("conexion.php");
+   //Decalrar REglas ---------------------------------------
     
     //ver vitas de la DB
     $peticionLibro= "   SELECT isbn

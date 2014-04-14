@@ -6,17 +6,24 @@
   </style>
 </head>
 <body>
-   <form action="" method="GET">
+   <form action="pagina6.php" method="GET">
    <h1> BUSCADOR DE LIBROS </h1>
    <div id="contenido">
-       <select id="" name="">
-        	<option value="">autor</option>
-            <option value="">titulo</option>
-            <option value="">area</option>
-        </select><br>
+       BUSCAR POR:<select name="buscar_por" >
+                   <option value="autor"> autor</option>
+                   <option value="genero">genero</option>
+                   <option value="titulo">titulo</option>
+                   <option value="mostrarTodos">mostrar Todos</Option>
+                   </select ><br>
    <input type="text" class="campo"id="txtBusqueda" name="textobusqueda"  placeholder="libro a buscar"/>
-   <input type="submit" name="" value="Tabla de datos"/>
+   <input type="submit" name="" value="BUSCAR" />
    </form>
-   </div>   
+      
+    <!---  <div>
+         <iframe src="conector.php" frameborder="0"  name="ventanaInterna" width="400" height="400"></iframe>
+          <p><a href="localhost/proyecto SIS/conector.php" target="iframe_a">enlace</a></p>
+       </div>
+   --->
 </body>
 </html
+
