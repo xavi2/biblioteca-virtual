@@ -2,28 +2,24 @@
 <head>
 <title>Biblioteca Virtual</title>
 <style type="text/css">
-   body{background-image:url("biblioteca.jpg")}
+   body{background-image:url("images/biblioteca.jpg")}
   </style>
 </head>
+<link rel="stylesheet" type="text/css" href="styles/styleBuscar.css">
 <body>
-   <form action="pagina6.php" method="GET">
+   <form action="resultado_busqueda.php" method="GET">
    <h1> BUSCADOR DE LIBROS </h1>
    <div id="contenido">
-       BUSCAR POR:<select name="buscar_por" >
+       <label>BUSCAR POR:</label><select name="buscar_por" >
                    <option value="autor"> autor</option>
                    <option value="genero">genero</option>
                    <option value="titulo">titulo</option>
                    <option value="mostrarTodos">mostrar Todos</Option>
                    </select ><br>
-   <input type="text" class="campo"id="txtBusqueda" name="textobusqueda"  placeholder="libro a buscar"/>
+   <input required type="text" class="campo"id="txtBusqueda" name="textobusqueda"  placeholder="libro a buscar"/>
    <input type="submit" name="" value="BUSCAR" />
    </form>
-      
-    <!---  <div>
-         <iframe src="conector.php" frameborder="0"  name="ventanaInterna" width="400" height="400"></iframe>
-          <p><a href="localhost/proyecto SIS/conector.php" target="iframe_a">enlace</a></p>
-       </div>
-   --->
+   
 </body>
-</html
+</html>
 

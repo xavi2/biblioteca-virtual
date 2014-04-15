@@ -1,0 +1,101 @@
+body{
+
+	color: #eeeeee;
+	background-color: #5882FA;
+}
+
+body div.frame{
+	width: 480px;
+	height: 320px;
+	padding: 10px;
+	margin: auto;
+	background-color: #0080FF;
+	border: 3px solid black;
+	border-radius: 30px;
+}
+
+h3
+{
+	color: #555555;
+	margin-top: 100px;
+	font-family: "Arial", serif;	
+	text-align: center;
+	font-size: 25px;
+
+}
+
+h1
+{
+	display: block;
+	height: 150;
+	font-family: "Arial", serif;	
+	margin: 50px 20px 100px 20px;
+
+}
+
+#boton
+{
+	font-family: "Arial", serif;
+	font-size: 25px;
+	text-decoration: none;
+	background-color: #eeeeee;
+	border: 3px solid #eeeeee;
+	border-radius: 10px;
+	color: #333333;
+	padding: 7px;
+	margin: 100px;
+
+}
+
+#boton:hover{
+	color: #eeeeee;
+	background-color: #333333;
+	border-color: #333333;
+}
+
+#boton:active{
+	border-color: #eeeeee;
+}
+
+#tu-vieja{
+	display: block;
+	float: right;
+	font-family: 'Gochi Hand';
+	font-size: 60px;
+	margin-top: -40px;
+	color: #333333;
+}
+.clear{
+	float: none;
+	z-index: 100;
+}
+
+
+#login{
+	color: #111111;
+	float: right;
+	margin-top: -300px;
+	margin-right: 90px;
+	z-index: 0;
+	background-color: #dddddd;
+	height: 240px;
+	width: 320px;
+	border: 3px solid #333333;
+	border-radius: 30px;
+}
+
+#login form{
+	position: relative;
+	margin-top: 70px;
+	text-align: center;
+}
+
+#login input.centered{
+	margin: 20px;
+}
+
+#login form div{
+	width: 300px;
+	text-align: right;
+	margin: auto; 
+}
