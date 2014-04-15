@@ -1,0 +1,41 @@
+
+body{
+	width: auto;
+	height: 600px;
+}
+
+:invalid{
+    border-color: red;
+    box-shadow: 0px 0px 5px red;
+}
+
+
+#cajaheader {
+	padding: 60px 500px;
+}
+ input {
+    border: 2px solid #abcd5a;
+    width: auto;
+    font-family: fantasy,cursive;
+    padding: 5px 2px 2px 2px;
+    
+    
+    
+ }
+input:focus{
+    color:#fff;
+    background: #006666;
+}
+label{
+    
+    width: 160px;
+    display: block;
+    float: left;
+    font-weight: bold;
+    margin-left: 4px;
+    color: #444720;
+}
+
+
+
+

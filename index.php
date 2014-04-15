@@ -45,6 +45,7 @@
 		<h1>Biblioteca Virtual: <span id = "tu-vieja">Tu <br> Vieja</span></h1>
 		<div class = "clear"></div>
 		<span id = "boton">Iniciar Sesion  <span id = 'arrow'> > </span> </span>
+		<span id = "boton"> <a href="registro.php"> Registro Usuario </a> </span>
 
 		
 	</div>
